@@ -1,0 +1,58 @@
+{% extends "layout.html" %}
+
+{% block title %}
+index
+{% endblock %}
+{% block main %}
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1{
+  color: white;
+  font-family: courier;
+  font-size: 300%;
+  align-content: center;
+}
+.text{
+    width: 100%;
+    margin-top: 150px ;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+.text h4{
+    font-size: 30px;
+    font-family: 'montserrat', sans-serif ;
+    font-weight: 700px;
+    margin: 14px 0px;
+}
+
+.text h1{
+    font-size: 62px;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 700px;
+    margin: 14px 0px;
+    color: #ff7200;
+}
+.text h3{
+    font-size: 25px;
+    font-family: 'open sans', sans-serif;
+}
+</style>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide"
+      xmlns:font-family="http://www.w3.org/1999/xhtml">
+<body>
+
+            <div class="text">
+	        <h4> *PASSION LED US HERE*</h4>
+        <h1> WELCOME TO Cosmos Learning</h1>
+	<h3> YOUR SHARING AND BLOGGING LEARNING PLATFORM </h3>
+	</div>
+{% block content %}
+{% endblock content %}
+</body>
+
+</html>
+{%endblock%}
